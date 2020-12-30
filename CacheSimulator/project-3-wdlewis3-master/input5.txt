@@ -1,0 +1,7 @@
+sets:8
+set_size:1
+line_size:32
+R:3f1f
+R:3f2f
+R:3f2e
+R:3e1f

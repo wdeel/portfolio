@@ -1,0 +1,18 @@
+TO TEST PROGRAM RUN THE FOLLOWING COMMANDS:
+
+make all
+java CacheSimulator <filename>
+
+EXAMPLES: 
+
+java CacheSimulator input.txt
+java CacheSimulator input2.txt
+java CacheSimulator input3.txt
+
+KNOWN ISSUE:
+Hex addresses must be lower case in input file otherwise the parser will not
+corretly parse the hex address from the R: or W:
+
+WILL parse R:ff
+
+WILL NOT parse R:FF see (test6 of makefile)
